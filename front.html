@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="front.css">
+  </head>
+  <style>
+    body, html {
+    background-image: url("img/horrorback.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  </style>
+  <body>
+    <img src="img/light.gif" alt="" style="top:5px;height:600px;left:560px;position:absolute;">
+    <h1 style="text-align:center;color:red;font-family:cursive;left:750px;top:180px;position:absolute;font-size:60px;">Witch Cards</h1>
+    <h3 style="text-align:center;color:blue;font-family:cursive;left:790px;top:255px;position:absolute;font-size:30px;">Memory game...</h3>
+    <img  id="sound" src="unmute.png" alt="" onclick="mute()">
+    <img src="img/spider.gif" alt="" style="left:50px;position:absolute;top:0px;width:350px;height:250px;border-radius:20px;">
+    <form class="play" action="card.html" method="post">
+       <button class="plybtn" type="submit" name="button">Play</button>
+    </form>
+    <script type="text/javascript" src="front.js">
+
+    </script>
+  </body>
+</html>

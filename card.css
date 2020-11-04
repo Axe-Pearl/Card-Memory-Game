@@ -1,0 +1,137 @@
+.message_box{
+  height:500px;
+  width:700px;
+  top:200px;
+  left:450px;
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  font-family: cursive;
+  padding-left: 50px;
+  padding-top: 50px;
+  visibility:hidden;
+  position: absolute;
+}
+.extras{
+  width:50px;
+  height: 50px;
+  top:400px;
+  right:40px;
+  position: absolute;
+}
+
+.b1{
+  top:130px;
+  height:40px;
+  width:100px;
+  background-color:green;
+  border-radius:10px;
+  position: absolute;
+}
+.b1:hover{
+  width:105px;.message_box{
+    height:500px;
+    width:700px;
+    top:400px;
+    left:750px;
+    position: absolute;
+  }
+}
+.imgr{
+
+}
+.imgr:hover{
+ height: 256px;
+ width:200px;
+}
+
+.div0{
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left: 150px;
+  position: absolute;
+}
+.div1{
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:400px;
+  position: absolute;
+}
+.div2{
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:650px;
+  position: absolute;
+}
+.div3{
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:900px;
+  position: absolute;
+}
+.div4{
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:1150px;
+  position: absolute;
+}
+.div5{
+  top:400px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:150px;
+  position: absolute;
+}
+
+.div6{
+  top:400px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:400px;
+  position: absolute;
+}
+.div7{
+  top:400px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:650px;
+  position: absolute;
+}
+
+.div8{
+  top:400px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:900px;
+  position: absolute;
+}
+.div9{
+  top:400px;
+  border-style: solid;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  left:1150px;
+  position: absolute;
+}
+#score{
+  color: blue;
+}

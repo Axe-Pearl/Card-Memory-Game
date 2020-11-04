@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="card.css">
+    <style>
+      body, html {
+      background-image: url("img/anime.gif");
+      height:100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Score:<span id="score">0</span></h1>
+    <h1 id="timing">40 secs</h1>
+    <h1 style="left:600px;font-family:cursive;top:3px;color:red ;position:absolute;">Hogwarts's Witch Cards</h1>
+    <img  id="sound" src="img/unmute.png" alt="" onclick="mute()" style="position:absolute;top:350px;">
+    <div class="container">
+      <div class="div0" >
+        <img src="img/hogwarts.jpeg" alt="" id="0" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div1">
+        <img src="img/hogwarts.jpeg" alt="" id="1" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div2">
+        <img src="img/hogwarts.jpeg" alt="" id="2" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div3">
+        <img src="img/hogwarts.jpeg" alt=""  id="3" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div4">
+        <img src="img/hogwarts.jpeg" alt=""  id="4" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div5">
+        <img src="img/hogwarts.jpeg" alt=""  id="5" onclick="turn(this.id)" class="imgr">
+      </div>
+
+      <div class="div6" >
+        <img src="img/hogwarts.jpeg" alt="" id="6" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div7">
+        <img src="img/hogwarts.jpeg" alt="" id="7" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div8">
+        <img src="img/hogwarts.jpeg" alt="" id="8" onclick="turn(this.id)" class="imgr">
+      </div>
+      <div class="div9">
+        <img src="img/hogwarts.jpeg" alt=""  id="9" onclick="turn(this.id)" class="imgr">
+      </div>
+
+    </div>
+    <div class="message_box" style="">
+      Congratulations,You Done it!
+    </div>
+    <img src="img/spidera.gif" alt="" style="top:-130px;left:-4px;width:200px;height:300px;position:absolute;">
+    <img src="img/spidera.gif" alt="" style="top:-130px;left:600px;width:200px;height:300px;position:absolute;">
+    <img src="img/spidera.gif" alt="" style="top:-130px;right:0px;width:200px;height:300px;position:absolute;">
+    <button class="b1" type="button" name="button" onclick="suffle()"><span style="font-family:cursive;">Start Game</span></button>
+    <button class="b1" style="top:200px;left:10px;position:absolute;" type="button" name="button" onClick="window.location.reload();"><span style="font-family:cursive;">Restart Game</span></button>
+     <form class="" action="front.html" method="post">
+       <button class="b1" style="top:260px;left:10px;position:absolute;" type="submit" name="button"><span style="font-family:cursive;">Main Menu</span></button>
+     </form>
+   <script type="text/javascript" src="card.js">
+
+   </script>
+  </body>
+</html>
